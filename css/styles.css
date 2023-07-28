@@ -1,3 +1,17 @@
 .p-2{
     flex:1
 }
+a{
+    text-decoration: none;
+}
+
+.subtitulo{
+    text-size-adjust: 20%;
+}
+
+.one, .three{
+    background-color: aqua;
+}
+.one, .two , .three{
+    height: 100vh;
+}
