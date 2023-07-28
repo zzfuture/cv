@@ -1,12 +1,18 @@
+*{
+    overflow: visible;
+    font-size: large;
+}
+
+main img {
+    width: 65%;
+    box-sizing: border-box;
+}
+
 .p-2{
-    flex:1
+    flex:1;
 }
 a{
     text-decoration: none;
-}
-
-.subtitulo{
-    text-size-adjust: 20%;
 }
 
 .one, .three{
@@ -14,4 +20,26 @@ a{
 }
 .one, .two , .three{
     height: 100vh;
+    
+}
+
+.data {
+    height: auto;
+}
+
+.img {
+    max-width: 50vh;
+    border-radius: 100%;
+}
+
+@media screen and (max-width: 1025px) {
+    .d-flex.align-items-start {
+        display: flex;
+        flex-direction: column;
+    }
+    .one, .two , .three{
+        display: flex;
+        height: auto;
+        width: 100vw;
+    }
 }
